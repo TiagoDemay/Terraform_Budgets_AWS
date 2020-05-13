@@ -1,0 +1,5 @@
+.terraform
+*.tsstate
+*plano
+terraform/.terraform/
+terraform/plano
