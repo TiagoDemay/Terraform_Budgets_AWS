@@ -12,7 +12,7 @@ notification = {
   threshold                  = 100
   threshold_type             = "PERCENTAGE"
   notification_type          = "FORECASTED"
-  subscriber_email_addresses = ["tiagoaodc@insper.edu.br"]
+  subscriber_email_addresses = ["example@insper.edu.br"]
 }
 
 cost_filters = {

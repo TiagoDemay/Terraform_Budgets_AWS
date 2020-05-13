@@ -26,7 +26,3 @@ variable "cost_filters" {
   description = "The Budget filters to use"
   type        = map
 }
-
-variable "account_count" {
-  default = "2" 
-}

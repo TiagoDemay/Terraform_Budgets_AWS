@@ -16,7 +16,7 @@ resource "aws_budgets_budget" "org" {
     threshold                  = 100
     threshold_type             = "PERCENTAGE"
     notification_type          = "FORECASTED"
-    subscriber_email_addresses = ["tiagoaodc@insper.edu.br","rauligs@insper.edu.br"]
+    subscriber_email_addresses = ["example1@insper.edu.br","example2@insper.edu.br"]
   }
 }
 resource "aws_budgets_budget" "global" {
@@ -32,7 +32,7 @@ resource "aws_budgets_budget" "global" {
     threshold                  = 100
     threshold_type             = "PERCENTAGE"
     notification_type          = "FORECASTED"
-    subscriber_email_addresses = ["tiagoaodc@insper.edu.br","rauligs@insper.edu.br"]
+    subscriber_email_addresses = ["example1@insper.edu.br","example2@insper.edu.br"]
   }
 }
 resource "aws_budgets_budget" "supercomp" {
@@ -52,7 +52,7 @@ resource "aws_budgets_budget" "supercomp" {
     threshold                  = 800
     threshold_type             = "PERCENTAGE"
     notification_type          = "FORECASTED"
-    subscriber_email_addresses = ["tiagoaodc@insper.edu.br","rauligs@insper.edu.br"]
+    subscriber_email_addresses = ["example1@insper.edu.br","example2@insper.edu.br"]
   }
 
   notification {
@@ -60,6 +60,6 @@ resource "aws_budgets_budget" "supercomp" {
     threshold                  = 300
     threshold_type             = "PERCENTAGE"
     notification_type          = "FORECASTED"
-    subscriber_email_addresses = ["tiagoaodc@insper.edu.br","rauligs@insper.edu.br"]
+    subscriber_email_addresses = ["example1@insper.edu.br","example2@insper.edu.br"]
   }
 }
